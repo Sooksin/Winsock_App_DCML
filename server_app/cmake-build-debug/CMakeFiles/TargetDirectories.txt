@@ -1,3 +1,3 @@
-C:/Users/Gebruiker/OneDrive/Documenten/HAN-ese/Semester3/DCM - LAB/Winsock_App_DCML/server_app/cmake-build-debug/CMakeFiles/server_app.dir
-C:/Users/Gebruiker/OneDrive/Documenten/HAN-ese/Semester3/DCM - LAB/Winsock_App_DCML/server_app/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Gebruiker/OneDrive/Documenten/HAN-ese/Semester3/DCM - LAB/Winsock_App_DCML/server_app/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/Winsock_App_DCML/server_app/cmake-build-debug/CMakeFiles/server_app.dir
+C:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/Winsock_App_DCML/server_app/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/Winsock_App_DCML/server_app/cmake-build-debug/CMakeFiles/rebuild_cache.dir
