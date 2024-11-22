@@ -3,4 +3,6 @@ project(client_app)
 
 set(CMAKE_CXX_STANDARD 20)
 
+link_libraries(ws2_32 wsock32)
+
 add_executable(client_app main.cpp)

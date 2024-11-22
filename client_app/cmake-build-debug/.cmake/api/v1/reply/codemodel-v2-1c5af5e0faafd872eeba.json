@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "server_app",
+					"name" : "client_app",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "server_app::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-server_app-Debug-eca7b3ab8ae606bc0d76.json",
-					"name" : "server_app",
+					"id" : "client_app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client_app-Debug-c67d9b955ff9b519fb8e.json",
+					"name" : "client_app",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Gebruiker/OneDrive/Documenten/HAN-ese/Semester3/DCM - LAB/Winsock_App_DCML/server_app/cmake-build-debug",
-		"source" : "C:/Users/Gebruiker/OneDrive/Documenten/HAN-ese/Semester3/DCM - LAB/Winsock_App_DCML/server_app"
+		"build" : "C:/Users/Gebruiker/OneDrive/Documenten/HAN-ese/Semester3/DCM - LAB/Winsock_App_DCML/client_app/cmake-build-debug",
+		"source" : "C:/Users/Gebruiker/OneDrive/Documenten/HAN-ese/Semester3/DCM - LAB/Winsock_App_DCML/client_app"
 	},
 	"version" : 
 	{

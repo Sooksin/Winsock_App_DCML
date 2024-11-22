@@ -1,0 +1,6 @@
+# ninja log v6
+4	885	7539788849774101	CMakeFiles/client_app.dir/main.cpp.obj	7d6f63b1b6e7bf0b
+11	302	7539791126293780	build.ninja	52635bb0e89d6959
+26	123	7539791127339616	client_app.exe	71517a40f507eb65
+6	841	7539791783909684	CMakeFiles/client_app.dir/main.cpp.obj	7d6f63b1b6e7bf0b
+842	940	7539791792270390	client_app.exe	71517a40f507eb65
