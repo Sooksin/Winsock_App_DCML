@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/Winsock_App_DCML/server_app/cmake-build-debug"
+			"value" : "c:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/server_app/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -559,7 +559,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/Winsock_App_DCML/server_app/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/server_app/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -631,7 +631,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/Winsock_App_DCML/server_app"
+			"value" : "C:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/server_app"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/Winsock_App_DCML/server_app/cmake-build-debug"
+			"value" : "C:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/server_app/cmake-build-debug"
 		},
 		{
 			"name" : "server_app_IS_TOP_LEVEL",
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/Winsock_App_DCML/server_app"
+			"value" : "C:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/server_app"
 		}
 	],
 	"kind" : "cache",

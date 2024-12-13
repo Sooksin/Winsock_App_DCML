@@ -12,7 +12,7 @@
 //#pragma comment (lib, "Ws2_32.lib")
 // #pragma comment (lib, "Mswsock.lib")
 
-#define DEFAULT_BUFLEN 512
+#define DEFAULT_BUFLEN 64511
 #define DEFAULT_PORT "27015"
 
 int __cdecl main(void)
@@ -27,13 +27,19 @@ int __cdecl main(void)
     struct addrinfo hints;
 
     int iSendResult;
-    char recvbuf[DEFAULT_BUFLEN];
+    char *recvbuf = NULL;
     int recvbuflen = DEFAULT_BUFLEN;
+    recvbuf = (char *)malloc(recvbuflen * sizeof(char));
 
+    if (recvbuf == NULL)
+    {
+        printf("Failed to allocate memory for recvbuf\n");
+    }
     // Initialize Winsock
     iResult = WSAStartup(MAKEWORD(2,2), &wsaData);
     if (iResult != 0) {
         printf("WSAStartup failed with error: %d\n", iResult);
+        free(recvbuf);
         return 1;
     }
 
@@ -47,6 +53,7 @@ int __cdecl main(void)
     iResult = getaddrinfo(NULL, DEFAULT_PORT, &hints, &result);
     if ( iResult != 0 ) {
         printf("getaddrinfo failed with error: %d\n", iResult);
+        free(recvbuf);
         WSACleanup();
         return 1;
     }
@@ -56,6 +63,7 @@ int __cdecl main(void)
     if (ListenSocket == INVALID_SOCKET) {
         printf("socket failed with error: %ld\n", WSAGetLastError());
         freeaddrinfo(result);
+        free(recvbuf);
         WSACleanup();
         return 1;
     }
@@ -66,6 +74,7 @@ int __cdecl main(void)
         printf("bind failed with error: %d\n", WSAGetLastError());
         freeaddrinfo(result);
         closesocket(ListenSocket);
+        free(recvbuf);
         WSACleanup();
         return 1;
     }
@@ -76,6 +85,7 @@ int __cdecl main(void)
     if (iResult == SOCKET_ERROR) {
         printf("listen failed with error: %d\n", WSAGetLastError());
         closesocket(ListenSocket);
+        free(recvbuf);
         WSACleanup();
         return 1;
     }
@@ -85,6 +95,7 @@ int __cdecl main(void)
     if (ClientSocket == INVALID_SOCKET) {
         printf("accept failed with error: %d\n", WSAGetLastError());
         closesocket(ListenSocket);
+        free(recvbuf);
         WSACleanup();
         return 1;
     }
@@ -104,6 +115,7 @@ int __cdecl main(void)
             if (iSendResult == SOCKET_ERROR) {
                 printf("send failed with error: %d\n", WSAGetLastError());
                 closesocket(ClientSocket);
+                free(recvbuf);
                 WSACleanup();
                 return 1;
             }
@@ -114,6 +126,7 @@ int __cdecl main(void)
         else  {
             printf("recv failed with error: %d\n", WSAGetLastError());
             closesocket(ClientSocket);
+            free(recvbuf);
             WSACleanup();
             return 1;
         }
@@ -125,12 +138,14 @@ int __cdecl main(void)
     if (iResult == SOCKET_ERROR) {
         printf("shutdown failed with error: %d\n", WSAGetLastError());
         closesocket(ClientSocket);
+        free(recvbuf);
         WSACleanup();
         return 1;
     }
 
     // cleanup
     closesocket(ClientSocket);
+    free(recvbuf);
     WSACleanup();
 
     return 0;

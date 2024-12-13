@@ -822,8 +822,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/Winsock_App_DCML/server_app/cmake-build-debug",
-		"source" : "C:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/Winsock_App_DCML/server_app"
+		"build" : "C:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/server_app/cmake-build-debug",
+		"source" : "C:/Users/elber/OneDrive - HAN/HAN/ESE/DCM2/server_app"
 	},
 	"version" : 
 	{

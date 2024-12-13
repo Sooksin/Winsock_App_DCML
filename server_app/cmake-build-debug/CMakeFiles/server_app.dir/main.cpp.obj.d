@@ -1,5 +1,5 @@
 CMakeFiles/server_app.dir/main.cpp.obj: \
- C:\Users\elber\OneDrive\ -\ HAN\HAN\ESE\DCM2\Winsock_App_DCML\server_app\main.cpp \
+ C:\Users\elber\OneDrive\ -\ HAN\HAN\ESE\DCM2\server_app\main.cpp \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.3/bin/mingw/x86_64-w64-mingw32/include/windows.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
