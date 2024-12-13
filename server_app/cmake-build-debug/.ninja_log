@@ -1,6 +1,4 @@
 # ninja log v6
-4	968	7539788799992712	CMakeFiles/server_app.dir/main.cpp.obj	245113c69f3d62c5
-4	337	7539790969059397	build.ninja	30c3fd02adfcc363
-28	145	7539790970489804	server_app.exe	ff9eb682aa7abb
 7	901	7539791687725492	CMakeFiles/server_app.dir/main.cpp.obj	245113c69f3d62c5
+4	337	7548486514739657	build.ninja	30c3fd02adfcc363
 903	999	7539791696686800	server_app.exe	ff9eb682aa7abb
