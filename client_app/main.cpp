@@ -13,7 +13,7 @@
 //#pragma comment (lib, "AdvApi32.lib")
 
 
-#define DEFAULT_BUFLEN 64511
+#define DEFAULT_BUFLEN 2048
 #define DEFAULT_PORT "27015"
 
 int __cdecl main(int argc, char **argv)
@@ -23,7 +23,7 @@ int __cdecl main(int argc, char **argv)
     struct addrinfo *result = NULL,
                     *ptr = NULL,
                     hints;
-    const char *sendbuf = "this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test nog "
+    const char *sendbuf = "his is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test nog "
                           "this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test nog "
                           "this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test nog "
                           "this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test this is a test test test nog "
